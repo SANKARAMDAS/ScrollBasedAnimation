@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Scroll with blur effect</title>
+    <link rel="stylesheet" href="scrool.css">
+</head>
+
+<body>
+    <div class="photo-blur"></div>
+    <div class="photo"></div>
+    <br><br>
+    <section>
+        <article>
+            <p>
+                I love you without knowing how, or when, or from where. I love you simply, without problems or pride: I love you in this way because I do not know any other way of loving but this, in which there is no I or you, so intimate that your hand upon my chest
+                is my hand, so intimate that when I fall asleep your eyes close. It started with wanting to spend more time with you. I wasn’t even sure what it was back then, just this feeling I had of wanting more. More time, more information about
+                you, more of your presence in general. I’d make excuses to see you, to ask you questions, to come up to you at events, to be in the same place at the same time. I didn’t know it was love then, I just knew I had to find a way to be around
+                you. It was such a simple need. And it still is. I need you in my life. I need to be around you. Your presence, your smile, your very self. You make me so happy. Sometimes you and I seem like a wild dream, but it’s a dream I want to come
+                true. It seems so impossible. That I should find you, the one other person in this world who fits me so completely and who makes me so happy. Sometimes when we’re together, I’ll look over and you’ll be doing something small—something silly
+                like looking for something to eat in the fridge or scratching your back maybe—and that one small thing causes this surge in my heart. I can’t believe I’m the person who gets to share these moments with you, these small, seemingly-insignificant
+                moments. I never thought this would be what my wildest dream would be like, but I’m so glad they’ve come true. You’re my best friend. The person I can tell all my secrets to, the first person I want to talk to when I wake up, and last
+                person I want to talk to before I drift off to sleep. When something good happens to me, you’re the first person I want to tell. When I’m troubled by something or if I get bad news, you’re the one I go to for comfort and support. But you’re
+                so much more to me than a friend, or someone who helps me through tough times, you’re the love of my life. You’re my friend, my lover, my comfort, and my strength. I am so lucky to have you. Here we are—despite the delays, the confusions,
+                the ups and downs, fights and makeups, doubts and missed chances—at last, after all of that and a whole lot more, here we are where we were always intended to be. Being with you feels like letting out a breath I never knew I was holding.
+                It’s such a relief to have found a man who makes me feel safe, loved, treasured, smart, supported, and cherished. There’s a freedom to loving you, a freedom I never knew existed. It’s the freedom of knowing another person so well and being
+                known so well by them. It allows me to be myself, flaws and all. It allows me to love you in the way I always wanted to love someone—unafraid and uninhibited. You’ve done that for me, and it has made all the difference. Before I met you,
+                I didn’t think love was for me. It was something other people had and felt. Something in movies and in TV shows. It felt more like a wish I had then something real. Now that I’m with you, love is so much more tangible. It’s something I
+                can reach out and touch. It’s so much more than a wish or a hope (though it does give me hope, for so many things), it’s the very real, wonderful person I wake up to. The warm hand next to mine, the feel of stubble against my cheek. I
+                love you and because of that love I love so much more than you. I love myself and the world in a way I never thought possible. You’ve made that possible for me. You’ve made everything possible.
+            </p>
+            <br>
+            <p>
+                I saw an older couple walking the other day. They were wearing matching sports coats and holding hands as they chatted. The woman giggled at something and the man did too. They were so sweet and comfortable with each other. They obviously had so much
+                love and history between them. It made me realize that one day we’d be like that. A couple walking together, talking, laughing, and enjoying the life we build together. I can’t wait to grow old with you. To see your old man smile, the
+                crinkles that’ll form at the corner of your eyes. I can’t wait to see how we are together. Will we argue and get crumpy? Will we silently sit by the fire? Will we go dancing? Eat the same dinner every Friday night? I don’t know. But I
+                can’t wait to continue this journey we’re on and find out. I love you so much and I love that I get to be the one to grow old with you and find all these things out. There are times in my life where I feel lost. It’s hard to explain but
+                it’s almost like I’m untethered from something that used to keep me grounded, like a kite that’s lost in the wind. But then I come home, I see you, you ask me how my day went or start talking about your day and what’s happened to you,
+                and it’s like you’re bringing me back to myself. I can feel myself settle back into my own skin. You ground me and bring me a sense of security and safety I’ve never known before. I have so much confidence in us and in our love, in the
+                way I feel about you and the way you feel about me. I love you so much and it gives me such strength. I wanted you to know how much you mean to me, what you do for me. Without you I’m so lost but with you I’m found again. Sometimes I try
+                to think of what my life would be like without you. What I would be like or what I’d do with my days. It’s so hard because so much of who I am now is due to you. You’ve challenged me, inspired me, encouraged me, and supported me. And it’s
+                because of all this that I’m the person I am today. I am so grateful for your presence in my life and for the love and attention to give to me, our relationship, and our life together. I couldn’t ask for anything more. I love you so much.
+            </p>
+        </article>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script>
+        $(window).scroll(function() {
+            var blurVal;
+            blurVal = $(window).scrollTop() / 150;
+            return $(".photo-blur").css("opacity", blurVal);
+        });
+    </script>
+
+</body>
+
+</html>
